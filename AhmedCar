@@ -1,0 +1,24 @@
+# AHMED BYD
+
+يوتيوب وكروم وIPTV في مكان واحد على شاشة سيارتك
+
+Built with AppxPrompt. This is a standard [Expo](https://expo.dev) project using Expo Router.
+
+## Run it
+
+You need [Node.js](https://nodejs.org) 20 or newer.
+
+```bash
+npm install
+npx expo start
+```
+
+Then scan the QR code with [Expo Go](https://expo.dev/go) on your phone, or press `i` for the iOS simulator, `a` for the Android emulator, or `w` for the web.
+
+## What's inside
+
+- `app/`: the screens. Each file is a route.
+- `components/`: the UI the screens share.
+- `theme/`: the app's colors. Change `activeThemeId` in `theme/themes.ts` to switch theme.
+- `data/`: the data types, and the records a new install starts with.
+- `lib/backend/`: where data, sign-in, and files are handled. The app saves its data on the device. `lib/backend/` is where that can move to a cloud backend without changing any screen.
